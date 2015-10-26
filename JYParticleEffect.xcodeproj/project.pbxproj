@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62AACE5C1BDDF79D00B7C406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AACE5B1BDDF79D00B7C406 /* main.m */; };
+		62AACE5F1BDDF79D00B7C406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AACE5E1BDDF79D00B7C406 /* AppDelegate.m */; };
+		62AACE621BDDF79D00B7C406 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AACE611BDDF79D00B7C406 /* ViewController.m */; };
+		62AACE651BDDF79D00B7C406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AACE631BDDF79D00B7C406 /* Main.storyboard */; };
+		62AACE671BDDF79D00B7C406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AACE661BDDF79D00B7C406 /* Assets.xcassets */; };
+		62AACE6A1BDDF79D00B7C406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AACE681BDDF79D00B7C406 /* LaunchScreen.storyboard */; };
+		62AACE751BDDF79D00B7C406 /* JYParticleEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AACE741BDDF79D00B7C406 /* JYParticleEffectTests.m */; };
+		62AACE801BDDF79D00B7C406 /* JYParticleEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AACE7F1BDDF79D00B7C406 /* JYParticleEffectUITests.m */; };
+		62AACE8F1BDDF7FB00B7C406 /* JYParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AACE8E1BDDF7FB00B7C406 /* JYParticleView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62AACE711BDDF79D00B7C406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AACE4F1BDDF79D00B7C406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AACE561BDDF79D00B7C406;
+			remoteInfo = JYParticleEffect;
+		};
+		62AACE7C1BDDF79D00B7C406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AACE4F1BDDF79D00B7C406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AACE561BDDF79D00B7C406;
+			remoteInfo = JYParticleEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62AACE571BDDF79D00B7C406 /* JYParticleEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYParticleEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AACE5B1BDDF79D00B7C406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62AACE5D1BDDF79D00B7C406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62AACE5E1BDDF79D00B7C406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62AACE601BDDF79D00B7C406 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62AACE611BDDF79D00B7C406 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62AACE641BDDF79D00B7C406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62AACE661BDDF79D00B7C406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62AACE691BDDF79D00B7C406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62AACE6B1BDDF79D00B7C406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AACE701BDDF79D00B7C406 /* JYParticleEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYParticleEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AACE741BDDF79D00B7C406 /* JYParticleEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYParticleEffectTests.m; sourceTree = "<group>"; };
+		62AACE761BDDF79D00B7C406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AACE7B1BDDF79D00B7C406 /* JYParticleEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYParticleEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AACE7F1BDDF79D00B7C406 /* JYParticleEffectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYParticleEffectUITests.m; sourceTree = "<group>"; };
+		62AACE811BDDF79D00B7C406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AACE8D1BDDF7FB00B7C406 /* JYParticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYParticleView.h; sourceTree = "<group>"; };
+		62AACE8E1BDDF7FB00B7C406 /* JYParticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYParticleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62AACE541BDDF79D00B7C406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AACE6D1BDDF79D00B7C406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AACE781BDDF79D00B7C406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62AACE4E1BDDF79D00B7C406 = {
+			isa = PBXGroup;
+			children = (
+				62AACE591BDDF79D00B7C406 /* JYParticleEffect */,
+				62AACE731BDDF79D00B7C406 /* JYParticleEffectTests */,
+				62AACE7E1BDDF79D00B7C406 /* JYParticleEffectUITests */,
+				62AACE581BDDF79D00B7C406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62AACE581BDDF79D00B7C406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62AACE571BDDF79D00B7C406 /* JYParticleEffect.app */,
+				62AACE701BDDF79D00B7C406 /* JYParticleEffectTests.xctest */,
+				62AACE7B1BDDF79D00B7C406 /* JYParticleEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62AACE591BDDF79D00B7C406 /* JYParticleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				62AACE5D1BDDF79D00B7C406 /* AppDelegate.h */,
+				62AACE5E1BDDF79D00B7C406 /* AppDelegate.m */,
+				62AACE601BDDF79D00B7C406 /* ViewController.h */,
+				62AACE611BDDF79D00B7C406 /* ViewController.m */,
+				62AACE631BDDF79D00B7C406 /* Main.storyboard */,
+				62AACE661BDDF79D00B7C406 /* Assets.xcassets */,
+				62AACE681BDDF79D00B7C406 /* LaunchScreen.storyboard */,
+				62AACE6B1BDDF79D00B7C406 /* Info.plist */,
+				62AACE5A1BDDF79D00B7C406 /* Supporting Files */,
+				62AACE8D1BDDF7FB00B7C406 /* JYParticleView.h */,
+				62AACE8E1BDDF7FB00B7C406 /* JYParticleView.m */,
+			);
+			path = JYParticleEffect;
+			sourceTree = "<group>";
+		};
+		62AACE5A1BDDF79D00B7C406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62AACE5B1BDDF79D00B7C406 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62AACE731BDDF79D00B7C406 /* JYParticleEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				62AACE741BDDF79D00B7C406 /* JYParticleEffectTests.m */,
+				62AACE761BDDF79D00B7C406 /* Info.plist */,
+			);
+			path = JYParticleEffectTests;
+			sourceTree = "<group>";
+		};
+		62AACE7E1BDDF79D00B7C406 /* JYParticleEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62AACE7F1BDDF79D00B7C406 /* JYParticleEffectUITests.m */,
+				62AACE811BDDF79D00B7C406 /* Info.plist */,
+			);
+			path = JYParticleEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62AACE561BDDF79D00B7C406 /* JYParticleEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AACE841BDDF79D00B7C406 /* Build configuration list for PBXNativeTarget "JYParticleEffect" */;
+			buildPhases = (
+				62AACE531BDDF79D00B7C406 /* Sources */,
+				62AACE541BDDF79D00B7C406 /* Frameworks */,
+				62AACE551BDDF79D00B7C406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYParticleEffect;
+			productName = JYParticleEffect;
+			productReference = 62AACE571BDDF79D00B7C406 /* JYParticleEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62AACE6F1BDDF79D00B7C406 /* JYParticleEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AACE871BDDF79D00B7C406 /* Build configuration list for PBXNativeTarget "JYParticleEffectTests" */;
+			buildPhases = (
+				62AACE6C1BDDF79D00B7C406 /* Sources */,
+				62AACE6D1BDDF79D00B7C406 /* Frameworks */,
+				62AACE6E1BDDF79D00B7C406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AACE721BDDF79D00B7C406 /* PBXTargetDependency */,
+			);
+			name = JYParticleEffectTests;
+			productName = JYParticleEffectTests;
+			productReference = 62AACE701BDDF79D00B7C406 /* JYParticleEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62AACE7A1BDDF79D00B7C406 /* JYParticleEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AACE8A1BDDF79D00B7C406 /* Build configuration list for PBXNativeTarget "JYParticleEffectUITests" */;
+			buildPhases = (
+				62AACE771BDDF79D00B7C406 /* Sources */,
+				62AACE781BDDF79D00B7C406 /* Frameworks */,
+				62AACE791BDDF79D00B7C406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AACE7D1BDDF79D00B7C406 /* PBXTargetDependency */,
+			);
+			name = JYParticleEffectUITests;
+			productName = JYParticleEffectUITests;
+			productReference = 62AACE7B1BDDF79D00B7C406 /* JYParticleEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62AACE4F1BDDF79D00B7C406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					62AACE561BDDF79D00B7C406 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					62AACE6F1BDDF79D00B7C406 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62AACE561BDDF79D00B7C406;
+					};
+					62AACE7A1BDDF79D00B7C406 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62AACE561BDDF79D00B7C406;
+					};
+				};
+			};
+			buildConfigurationList = 62AACE521BDDF79D00B7C406 /* Build configuration list for PBXProject "JYParticleEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62AACE4E1BDDF79D00B7C406;
+			productRefGroup = 62AACE581BDDF79D00B7C406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62AACE561BDDF79D00B7C406 /* JYParticleEffect */,
+				62AACE6F1BDDF79D00B7C406 /* JYParticleEffectTests */,
+				62AACE7A1BDDF79D00B7C406 /* JYParticleEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62AACE551BDDF79D00B7C406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AACE6A1BDDF79D00B7C406 /* LaunchScreen.storyboard in Resources */,
+				62AACE671BDDF79D00B7C406 /* Assets.xcassets in Resources */,
+				62AACE651BDDF79D00B7C406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AACE6E1BDDF79D00B7C406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AACE791BDDF79D00B7C406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62AACE531BDDF79D00B7C406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AACE621BDDF79D00B7C406 /* ViewController.m in Sources */,
+				62AACE8F1BDDF7FB00B7C406 /* JYParticleView.m in Sources */,
+				62AACE5F1BDDF79D00B7C406 /* AppDelegate.m in Sources */,
+				62AACE5C1BDDF79D00B7C406 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AACE6C1BDDF79D00B7C406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AACE751BDDF79D00B7C406 /* JYParticleEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AACE771BDDF79D00B7C406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AACE801BDDF79D00B7C406 /* JYParticleEffectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62AACE721BDDF79D00B7C406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AACE561BDDF79D00B7C406 /* JYParticleEffect */;
+			targetProxy = 62AACE711BDDF79D00B7C406 /* PBXContainerItemProxy */;
+		};
+		62AACE7D1BDDF79D00B7C406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AACE561BDDF79D00B7C406 /* JYParticleEffect */;
+			targetProxy = 62AACE7C1BDDF79D00B7C406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62AACE631BDDF79D00B7C406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62AACE641BDDF79D00B7C406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62AACE681BDDF79D00B7C406 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62AACE691BDDF79D00B7C406 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62AACE821BDDF79D00B7C406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62AACE831BDDF79D00B7C406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62AACE851BDDF79D00B7C406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYParticleEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYParticleEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62AACE861BDDF79D00B7C406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYParticleEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYParticleEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62AACE881BDDF79D00B7C406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYParticleEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYParticleEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYParticleEffect.app/JYParticleEffect";
+			};
+			name = Debug;
+		};
+		62AACE891BDDF79D00B7C406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYParticleEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYParticleEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYParticleEffect.app/JYParticleEffect";
+			};
+			name = Release;
+		};
+		62AACE8B1BDDF79D00B7C406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYParticleEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYParticleEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYParticleEffect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62AACE8C1BDDF79D00B7C406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYParticleEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYParticleEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYParticleEffect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62AACE521BDDF79D00B7C406 /* Build configuration list for PBXProject "JYParticleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AACE821BDDF79D00B7C406 /* Debug */,
+				62AACE831BDDF79D00B7C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AACE841BDDF79D00B7C406 /* Build configuration list for PBXNativeTarget "JYParticleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AACE851BDDF79D00B7C406 /* Debug */,
+				62AACE861BDDF79D00B7C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62AACE871BDDF79D00B7C406 /* Build configuration list for PBXNativeTarget "JYParticleEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AACE881BDDF79D00B7C406 /* Debug */,
+				62AACE891BDDF79D00B7C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62AACE8A1BDDF79D00B7C406 /* Build configuration list for PBXNativeTarget "JYParticleEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AACE8B1BDDF79D00B7C406 /* Debug */,
+				62AACE8C1BDDF79D00B7C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62AACE4F1BDDF79D00B7C406 /* Project object */;
+}
